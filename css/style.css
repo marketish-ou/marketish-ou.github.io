@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294E3;
-    --secondary: #8F12FD;
+    --primary: #004C99;   /* New main color */
+    --secondary: #2C75B5; /* A lighter shade of blue */
     --light: #F0F6FF;
     --dark: #262B47;
 }
@@ -363,6 +363,11 @@ h6,
     background: linear-gradient(to bottom right, var(--primary), var(--secondary));
     border-radius: 15px;
     transition: .5s;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
 }
 
 .screenshot-carousel .owl-dot::after {
