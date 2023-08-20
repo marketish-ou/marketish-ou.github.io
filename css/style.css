@@ -259,7 +259,7 @@ h6,
 /*** Hero Header ***/
 .hero-header {
     margin-bottom: 6rem;
-    padding: 16rem 0 0 0;
+    padding: 16rem 0 12rem 0;
     background:
         url(../img/bg-circle.png),
         url(../img/bg-triangle.png),
@@ -504,4 +504,21 @@ h6,
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+
+.no-blue-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+.brand-btn {
+    color: #004C99;
+    text-decoration: none;
+    font-weight: 500;
+    padding-bottom: 2px;
+    transition: color 0.3s ease;
+}
+
+.brand-btn:hover {
+    color: #003366;  /* a darker shade for hover effect */
 }

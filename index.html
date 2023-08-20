@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html amp lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <title>ToTheTraX 💪 Team Building to Outsourcing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ToTheTraX Home</title>
+    <link rel="stylesheet" href="path-to-your-css-file.css">
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -31,640 +35,127 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
-    <div class="container-xxl bg-white p-0">
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+<body class="bg-white">
+
+	<!-- Header & Nav -->
+	<nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-0 py-lg-0">
+	    <a href="index.html" class="navbar-brand">
+	        <h1><img class="pt-2 logo" src="img/tothetrax-logo-v1.svg" alt="Logo"></h1>
+	    </a>
+	    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+	        <span class="fa fa-bars"></span>
+	    </button>
+	    <div class="collapse navbar-collapse" id="navbarCollapse">
+	        <div class="navbar-nav mx-auto py-0">
+	            <a href="index.html" class="nav-item nav-link active">Home</a>
+	            <a href="about.html" class="nav-item nav-link">About</a>
+	            <li class="nav-item dropdown position-relative">
+	                <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+	                    Services
+	                </a>
+	                <ul class="dropdown-menu start-0" aria-labelledby="servicesDropdown">
+	                    <li><a class="dropdown-item" href="consultancy.html">Consultancy</a></li>
+	                    <li><a class="dropdown-item" href="outsourcing.html">Outsourcing</a></li>
+	                    <li><a class="dropdown-item" href="recruiting.html">Recruiting</a></li>
+	                </ul>
+	            </li>
+	            <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+	        </div>
+	    </div>
+	</nav>
+
+
+	<!-- Hero Banner -->
+	<div class="container-xxl bg-primary hero-header">
+	    <div class="container px-lg-5">
+	        <h1 class="text-white mb-5 animated slideInDown">Welcome to ToTheTraX</h1>
+	        <p class="text-white pb-3 animated slideInDown">Your premier source for consultancy, outsourcing, and recruiting services. Partner with us for innovative solutions tailored to your needs.</p>
+	    </div>
+	</div>
+
+	<!-- About Section -->
+	<div class="container py-5">
+	    <h2>About ToTheTraX</h2>
+	    <p>Since our inception, ToTheTraX has been committed to providing innovative solutions to businesses globally. Our expertise in consultancy, outsourcing, and recruiting positions us as a leader in our industry.</p>
+	</div>
+
+	<!-- Services Section -->
+	<div class="container py-5">
+	    <h2>Our Services</h2>
+	    <div class="row">
+	        <div class="col-md-4">
+	            <h3><a href="consultancy.html" class="no-blue-link">Consultancy</a></h3>
+	            <p>We provide top-notch consultancy services that drive growth and improve operational efficiency. Our team of experts is dedicated to understanding your business needs and providing tailored solutions. <a href="consultancy.html" class="brand-btn">Learn More</a></p>
+	        </div>
+	        <div class="col-md-4">
+	            <h3><a href="outsourcing.html" class="no-blue-link">Outsourcing</a></h3>
+	            <p>Optimize your operations with our outsourcing services. We take the load off your shoulders, ensuring you can focus on your core business while we handle the rest. <a href="outsourcing.html" class="brand-btn">Learn More</a></p>
+	        </div>
+	        <div class="col-md-4">
+	            <h3><a href="recruiting.html" class="no-blue-link">Recruiting</a></h3>
+	            <p>Get access to world-class talent through our recruiting services. We have a proven track record of connecting companies with the best candidates tailored to their requirements. <a href="recruiting.html" class="brand-btn">Learn More</a></p>
+	        </div>
+	    </div>
+	</div>
+
+
+
+	<!-- Testimonials Section -->
+	<!-- <div class="container py-5"> -->
+	    <!-- <h2>What Our Clients Say</h2> -->
+	    <!-- Use client testimonials from existing data. -->
+	<!-- </div> -->
+
+	<!-- Process Section -->
+	<div class="container py-5">
+	    <h2>Our Process</h2>
+	    <p>At ToTheTraX, we believe in transparency and efficiency. Our process is streamlined to ensure optimal results for our clients. From understanding your needs to delivering solutions, we ensure every step is taken with precision and care.</p>
+	    <!-- Breakdown the process steps. -->
+	</div>
+
+    <!-- CTA Section -->
+    <div class="container-xxl py-5 bg-primary-gradient">
+        <div class="container py-5 px-lg-5 text-center">
+            <h2 class="mb-4 text-white">Ready to elevate your business?</h2>
+            <a href="contact.html" class="btn btn-outline-light">Contact Us</a>
         </div>
-        <!-- Spinner End -->
-
-
-        <!-- Navbar & Hero Start -->
-        <div class="container-xxl position-relative p-0" id="home">
-            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-0 py-lg-0">
-                <a href="" class="navbar-brand">
-                    <h1><img class="pt-2 logo" src="img/tothetrax-logo-v1.svg" alt="Logo"></h1>
-                    
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav mx-auto py-0">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#feature" class="nav-item nav-link">Process</a>
-                        <!-- <a href="#pricing" class="nav-item nav-link">Pricing</a> -->
-                        <a href="#review" class="nav-item nav-link">Review</a>
-                        <!-- <a href="#contact" class="nav-item nav-link">Contact</a> -->
-                    </div>
-                    <!-- <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block">Start Free Trial</a> -->
-                </div>
-            </nav>
-
-            <div class="container-xxl bg-primary hero-header">
-                <div class="container px-lg-5">
-                    <div class="row g-5">
-                        <div class="col-lg-8 text-center text-lg-start">
-                            <h2 class="text-white mb-4 animated slideInDown">WORLD CLASS TALENT GETS HIRED HERE</h2>
-                            <p class="text-white pb-3 animated slideInDown">Some of the best, most innovative and ambitious companies on the planet use ToTheTraX Consulting to hire their star players. Serious about your career? Then it's time to realise your true potential...</p>
-                            <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a> -->
-                            <!-- <a href="" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a> -->
-                        </div>
-                        <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
-                            <div class="owl-carousel screenshot-carousel">
-                                <img class="img-fluid" src="img/screenshot-1.png" alt="">
-                                <img class="img-fluid" src="img/screenshot-2.png" alt="">
-                                <img class="img-fluid" src="img/screenshot-3.png" alt="">
-                                <img class="img-fluid" src="img/screenshot-4.png" alt="">
-                                <img class="img-fluid" src="img/screenshot-5.png" alt="">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Navbar & Hero End -->
-
-
-        <!-- About Start -->
-        <div class="container-xxl py-5" id="about">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">About</h5>
-                        <h2 class="mb-4">YOUR FUTURE STARTS HERE</h2>
-                        <p class="mb-4">With the right talent, anything is possible. We are the global leader in talent and recruiting for marketing, creative, and design. We match people to opportunities and build relationships that mean big wins for everyone.</p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                                <div class="d-flex">
-                                    <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
-                                    <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">100</h2>
-                                        <p class="text-primary-gradient mb-0">Customers</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                                <div class="d-flex">
-                                    <i class="fa fa-comments fa-2x text-secondary-gradient flex-shrink-0 mt-1"></i>
-                                    <div class="ms-3">
-                                        <h2 class="mb-0" data-toggle="counter-up">1000</h2>
-                                        <p class="text-secondary-gradient mb-0">Candidates </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- <a href="" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill mt-3">Read More</a> -->
-                    </div>
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/wide1.jpg">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- About End -->
-
-
-        <!-- Features Start -->
-        <div class="container-xxl py-5" id="feature">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">HIRING PROCESS</h5>
-                    <h2 class="mb-5">HIRING PROCESS</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-user text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Candidate Sourcing</h5>
-                            <p class="m-0">Finding and qualifying candidates – both passive and active – who have not applied directly to an open role</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-filter text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Screening (Profiling)</h5>
-                            <p class="m-0">Reviewing job applications to determine which people should be taken forward into the later parts of the recruitment process.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-clipboard-question text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Interview</h5>
-                            <p class="m-0">Evaluate candidates’ abilities and how they match up to what is required within a role.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa-solid fa-file text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Background Check</h5>
-                            <p class="m-0">A check of what a candidate has done in the past. it is usually as part of the process of selecting and hiring whether to employ her/ him.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-handshake-angle text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">Negotiation Offer</h5>
-                            <p class="m-0">Strategic discussion that resolves an issue in a way that both parties find acceptable</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="feature-item bg-light rounded p-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
-                                <i class="fa fa-hand-peace text-white fs-4"></i>
-                            </div>
-                            <h5 class="mb-3">On-Boarding</h5>
-                            <p class="m-0">The process in which new employees gain the knowledge and skills they need to become effective members of an organization.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Features End -->
-
-
-        <!-- Screenshot Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-8 wow fadeInUp" data-wow-delay="0.1s">
-                        <h5 class="text-primary-gradient fw-medium">Expertise</h5>
-                        <h2 class="mb-4">Areas of Expertise</h2>
-                        <p class="mb-4">We know that, in the Creative, Digital, Media, and Tech industries, a candidate’s skills can mean a lot more than a job title and the remit depends largely on the company. Here you’ll find some examples of the wide range of roles we cater for, both permanent and freelance.</p>
-                        <p class="mb-4">The industry changes rapidly and we understand its subtleties; if your skillset isn’t listed or you’re looking for something a little more niche, contact us; we have also worked with print, experiential/events, and integration requirements.</p>
-                        <!-- <p><i class="fa fa-check text-primary-gradient me-3"></i>Industry related candidates</p> -->
-                        <!-- <p><i class="fa fa-check text-primary-gradient me-3"></i>Match of skills</p> -->
-                        <!-- <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Cultural fit</p> -->
-                    </div>
-                    <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="owl-carousel screenshot-carousel">
-                            <img class="img-fluid" src="img/screenshot-6.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-7.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-8.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-9.png" alt="">
-                            <img class="img-fluid" src="img/screenshot-10.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Screenshot End -->
-
-
-        <!-- Process Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Solutions for candidates</h5>
-                    <h2 class="mb-5">3 Easy Steps</h2>
-                </div>
-                <div class="row gy-5 gx-4 justify-content-center">
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-handshake fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Job Advice</h5>
-                            <p class="mb-0">The conversational exercise usually resembles a real interview as closely as possible, for the purpose of providing experience for a candidate</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-pen fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Interview</h5>
-                            <p class="mb-0">The conversational exercise usually resembles a real interview as closely as possible, for the purpose of providing experience for a candidate</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-globe fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Professional Network</h5>
-                            <p class="mb-0">Our network is the heart of our company</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Pro features</h5>
-                    <h2 class="mb-5">Get Hired Faster</h2>
-                </div>
-                <div class="row gy-5 gx-4 justify-content-center">
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-user fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Mock Interview</h5>
-                            <p class="mb-0">The conversational exercise usually resembles a real interview as closely as possible, for the purpose of providing experience for a candidate</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
-                            <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                                <i class="fa fa-comment fa-3x text-white"></i>
-                            </div>
-                            <h5 class="mt-4 mb-3">Professional Editing Services</h5>
-                            <p class="mb-0">Using an English editing service involves having a native English-speaking editor review your draft to correct errors, such as grammar and punctuation mistakes, misspellings, typos, or specialized parts of your job, and ensure the standard content and format in your resume.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Process Start -->
-
-        <!-- Download Start -->
-        <div class="container-xxl py-5">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-lg-6">
-                        <img class="img-fluid wow fadeInUp" data-wow-delay="0.1s" src="img/wide2.jpg">
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <h5 class="text-primary-gradient fw-medium">Solutions for companies</h5>
-                        <h2 class="mb-4">You are more than just a piece of paper</h2>
-                        <p class="mb-4">We’re not virtual. We’re real people who love the human touch. We work as your business partner, not just a supplier and have the skills and industry knowledge to get you where you want to be.</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Industry related candidates</p>
-                        <p><i class="fa fa-check text-primary-gradient me-3"></i>Match of skills</p>
-                        <p class="mb-4"><i class="fa fa-check text-primary-gradient me-3"></i>Cultural fit</p>                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Download End -->
-
-
-        <!-- Pricing Start -->
-        <!-- <div class="container-xxl py-5" id="pricing">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Pricing Plan</h5>
-                    <h2 class="mb-5">Choose Your Plan</h2>
-                </div>
-                <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
-                    <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
-                        <li class="nav-item">
-                            <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Monthly</button>
-                        </li>
-                        <li class="nav-item">
-                            <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Yearly</button>
-                        </li>
-                    </ul>
-                    <div class="tab-content text-start">
-                        <div id="tab-1" class="tab-pane fade show p-0 active">
-                            <div class="row g-4">
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>14.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded border">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>24.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-secondary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>34.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Month</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div id="tab-2" class="tab-pane fade p-0">
-                            <div class="row g-4">
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Starter Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>114.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded border">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Advance Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>124.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-4">
-                                    <div class="bg-light rounded">
-                                        <div class="border-bottom p-4 mb-4">
-                                            <h4 class="text-primary-gradient mb-1">Premium Plan</h4>
-                                            <span>Powerful & Awesome Features</span>
-                                        </div>
-                                        <div class="p-4 pt-0">
-                                            <h2 class="mb-3">
-                                                <small class="align-top" style="font-size: 22px; line-height: 45px;">$</small>134.99<small
-                                                    class="align-bottom" style="font-size: 16px; line-height: 40px;">/ Yearly</small>
-                                            </h2>
-                                            <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
-                                            <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Pricing End -->
-
-
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5" id="review">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Testimonial</h5>
-                    <h2 class="mb-5">Why ToTheTraX!</h2>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <!-- <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-1.jpg" style="width: 85px; height: 85px;"> -->
-                            <div class="">
-                                <h5 class="mb-1">Faster results</h5>
-                                <!-- <p class="mb-1">Profession</p> -->
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Agile and Web-based process.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <!-- <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-2.jpg" style="width: 85px; height: 85px;"> -->
-                            <div class="">
-                                <h5 class="mb-1">Environment of trust</h5>
-                                <!-- <p class="mb-1">Profession</p> -->
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Positive reputation in the market.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <!-- <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-3.jpg" style="width: 85px; height: 85px;"> -->
-                            <div class="">
-                                <h5 class="mb-1">Higher cultural sensitivity</h5>
-                                <!-- <p class="mb-1">Profession</p> -->
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">Broad experience with different backgrounds.</p>
-                    </div>
-                    <div class="testimonial-item rounded p-4">
-                        <div class="d-flex align-items-center mb-4">
-                            <!-- <img class="img-fluid bg-white rounded flex-shrink-0 p-1" src="img/testimonial-4.jpg" style="width: 85px; height: 85px;"> -->
-                            <div class="">
-                                <h5 class="mb-1">Various opportunities</h5>
-                                <!-- <p class="mb-1">Profession</p> -->
-                                <div>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                    <small class="fa fa-star text-warning"></small>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="mb-0">International access to digital talents.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
-
-
-        <!-- Contact Start -->
-        <!-- <div class="container-xxl py-5" id="contact">
-            <div class="container py-5 px-lg-5">
-                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h5 class="text-primary-gradient fw-medium">Contact Us</h5>
-                    <h2 class="mb-5">Get In Touch!</h2>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-lg-9">
-                        <div class="wow fadeInUp" data-wow-delay="0.3s">
-                            <p class="text-center mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
-                            <form>
-                                <div class="row g-3">
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Leave a message here" id="message" style="height: 150px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12 text-center">
-                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!-- Contact End -->
-        
-
-        <!-- Footer Start -->
-        <div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
-            <div class="container py-5 px-lg-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Address</h4>
-                        <p><i class="fa fa-map-marker-alt me-3"></i>Harju maakond, Tallinn, Kesklinna linnaosa, Sakala tn 7-2, 10141</p>
-<!--                         <p>🇺🇸 +1 (772) 2022224</p> -->
-<!--                         <p>🇳🇱 +31 647285599</p> -->
-                        <p><i class="fa fa-envelope me-3"></i>business@tothetrax.com</p>
-                        <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Quick Link</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <!-- <a class="btn btn-link" href="">Contact Us</a> -->
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-                    <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Popular Link</h4>
-                        <a class="btn btn-link" href="">About Us</a>
-                        <!-- <a class="btn btn-link" href="">Contact Us</a> -->
-                        <a class="btn btn-link" href="">Privacy Policy</a>
-                        <a class="btn btn-link" href="">Terms & Condition</a>
-                        <a class="btn btn-link" href="">Career</a>
-                    </div>
-<!--                     <div class="col-md-6 col-lg-3">
-                        <h4 class="text-white mb-4">Newsletter</h4>
-                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulpu</p>
-                        <div class="position-relative w-100 mt-3">
-                            <input class="form-control border-0 rounded-pill w-100 ps-4 pe-5" type="text" placeholder="Your Email" style="height: 48px;">
-                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i class="fa fa-paper-plane text-primary-gradient fs-4"></i></button>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            <div class="container px-lg-5">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#">ToTheTraX</a>, All Right Reserved. 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-							<!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
-                            </br>
-                            <!-- Distributed By <a class="border-bottom" href="https://themewagon.com" target="_blank">ThemeWagon</a> -->
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href="">Home</a>
-                                <a href="">Cookies</a>
-                                <a href="">Help</a>
-                                <a href="">FQAs</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Footer End -->
-
-
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up text-white"></i></a>
     </div>
 
-    <!-- JavaScript Libraries -->
+	<!-- Footer Start -->
+	<div class="container-fluid bg-primary text-light footer wow fadeIn" data-wow-delay="0.1s">
+	    <div class="container py-5 px-lg-5">
+	        <div class="row g-5">
+	            <div class="col-md-6 col-lg-3">
+	                <h4 class="text-white mb-4">Address</h4>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>Harju maakond, Tallinn, Kesklinna linnaosa, Sakala tn 7-2, 10141</p>
+<!--                         <p>🇳🇱 +31 111111111</p> -->
+                        <p><i class="fa fa-envelope me-3"></i>business@tothetrax.com</p>
+                    </div>
+                	<div class="col-md-6 col-lg-3">
+	                <h4 class="text-white mb-4">Quick Link</h4>
+	                <a class="btn btn-link" href="#home">Home</a>
+	                <a class="btn btn-link" href="#about">About Us</a>
+	                <a class="btn btn-link" href="#feature">Process</a>
+	                <a class="btn btn-link" href="#review">Review</a>
+	            </div>
+	            <div class="col-md-6 col-lg-3">
+	                <h4 class="text-white mb-4">Services</h4>
+	                <a class="btn btn-link" href="#">Consultancy</a>
+	                <a class="btn btn-link" href="#">Outsourcing</a>
+	                <a class="btn btn-link" href="#">Recruiting</a>
+	            </div>
+	            <div class="col-md-6 col-lg-3">
+	                <h4 class="text-white mb-4">Policies & Careers</h4>
+	                <a class="btn btn-link" href="">Privacy Policy</a>
+	                <a class="btn btn-link" href="">Terms & Condition</a>
+	                <a class="btn btn-link" href="">Career</a>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- Copyright section... -->
+	</div>
+
+
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="lib/wow/wow.min.js"></script>
